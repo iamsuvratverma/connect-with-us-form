@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 17px;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: #67f2e2;
+        }
+
+        input[type=text]:focus {
+            background-color: rgb(255, 255, 255);
+
+        }
+
+        .main {
+            display: flex;
+            margin: 36px 0px 0px 90px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .blue {
+            background-color: rgb(15, 15, 189);
+            margin: 0px 0px 0px -281px;
+            width: 16%;
+            padding: 55px 45px 0px 35px;
+            color: white;
+
+        }
+
+        .white {
+            background-color: rgb(255, 255, 255);
+            padding: 30px;
+            width: 60%;
+
+        }
+
+        input {
+            border-width: 0px 0px 2px 0px;
+            font-size: 11px;
+            display: inline-block;
+            margin: 10px;
+            height: 15px;
+
+        }
+
+        .block {
+            display: inline-block;
+            margin: 4px 14px 0px 5px;
+        }
+
+        textarea {
+            width: 90%;
+        }
+
+        .send {
+            border-radius: 20px;
+            margin-bottom: 15px;
+            margin-top: 20px;
+            width: fit-content;
+            background-color: blue;
+            color: #ffffff;
+            padding: 8px 20px 8px 20px;
+        }
+
+        .send:hover {
+            transform: scale(1.2);
+            transition-duration: 0.5s;
+        }
+
+        label {
+            display: block;
+        }
+
+        .para {
+            margin: -40px 0px 20px 71px;
+        }
+
+        .head {
+            padding: 0px 0px 0px 88px;
+        }
+
+        .h2 {
+            margin: 30px 0px 9px 87px;
+        }
+
+        .h1 {
+            margin: 10px 0px 0px 15px;
+        }
+
+        .h3 {
+            margin: 6px 0px 23px 20px;
+            color: blue;
+        }
+
+        .us {
+            margin: -18px 0px 50px;
+        }
+
+        .slide {
+            margin: 0px 0px -10px 15px;
+            color: blue;
+
+        }
+
+        .msg {
+            margin: 0px 0px 0px 19px;
+            color: #0000ff;
+        }
+        .a{
+            text-decoration: none;
+            color: #0000ff;
+        }
+        </style>
+</head>
+
+<body>
+    <div class="whole">
+        <h2 class="h2">Connect with Us</h2>
+        <div class="head">We Would love to respond to your queries and help you succeed.</div>
+        <div class="head">feel free to get in touch with us.</div>
+        <div class="main">
+            <form action="">
+                <div class="white">
+                    <div>
+                        <h3 class="h3">Send your request</h3>
+                        <div class="block">
+                            <label class="slide" for="">Name </label>
+                            <input class="h1" type="text" placeholder="Enter your name">
+                        </div>
+                        <div class="block">
+                            <label class="slide" for="">Phone</label>
+                            <input class="h1" type="text" placeholder="phone no." maxlength="10">
+                        </div>
+
+                        <div class="block">
+                            <label class="slide" for="">Email</label>
+                            <input class="h1" type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="block">
+                            <label class="slide" for="">subject</label>
+                            <input class="h1" type="text" placeholder="Product Name">
+                        </div>
+                    </div> <br>
+
+                    <div class="msg">
+                        Message
+                    </div>
+                    <textarea class="msg" name="" id="" cols="20" rows="5" placeholder="Your Message">
+                </textarea>
+                    <div class="h1">
+                        <button type="send" class="send">SEND</button>
+                    </div>
+                    <div ><a class="a" href=>Too see another forms</a> <button><a href="http://127.0.0.1:5500/Activity_12-1-23.html" target="_blank">click here</a></button></div>
+                </div>
+
+            </form>
+            <div class="blue">
+                <div>
+                    <h3 class="us">Reach Us</h3>
+                </div>
+
+                <div>
+                    <p>Email</p>
+                    <p class="para">suvratverma@gmail.com </p>
+                </div>
+                <div>
+                    <p>Phone</p>
+                    <p class="para">+1012 3456789 </p>
+                </div>
+                <div>
+                    <p>
+                        Address</p>
+                    <p class="para"> #212 ground Floor, 7th building Near
+                        some layout,some Road,Benguluru 208001
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
